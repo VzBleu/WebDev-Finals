@@ -1,0 +1,74 @@
+body {
+    background-color: black;
+}
+
+.navbar {
+    color: white;
+    background-color: #1a1a1a;
+}
+
+.nav-item {
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.nav-link {
+    color: white;
+}
+
+.navbar-brand {
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+}
+
+.form-inline {
+    margin: auto 0 auto auto;
+}
+
+.form-control {
+    font-size: 10px;
+    font-weight: 500;
+}
+
+.navbar-nav {
+    margin: auto;
+}
+
+
+.suggestions {
+    max-height: 200px;
+    overflow-y: auto;
+    position: absolute;
+    background: white;
+    z-index: 1000;
+    border: 1px solid #ddd;
+    border-top: 0;
+}
+
+.suggestion-item {
+    padding: 10px;
+    cursor: pointer;
+    color: black;
+    font-size: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.suggestion-item:hover {
+    background-color: #f0f0f0;
+}
+
+footer {
+    height: 5%px;
+    font-size: smaller;
+    background-color: #d9d9d9;
+}
+
+footer h5 {
+    font-size: medium;
+}
+
+footer p,
+footer li {
+    font-size: 10px;
+}
